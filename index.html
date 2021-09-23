@@ -87,8 +87,27 @@
             <article class="article-recent">
                <div class="article-recent-main">
                   <h2 class="article-title">Simple decoration</h2>
-                  <p class="article-body">A home isn't a home untill you've decorated a little. People either don't decorate, or they go overboard and it doesn't have the impact they were hoping for. Staying simple will help draw the eye where you want it to and make things pop like never before.</p>
-                  <a href="#" class="article-read-more">CONTINUE READING</a>
+                  <p class="article-body">A home isn't a home untill you've decora<span id="dots">...</span><span id="more">ted a little. People either don't decorate, or they go overboard and it doesn't have the impact they were hoping for. Staying simple will help draw the eye where you want it to and make things pop like never before.</span></p>
+                  <button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+                  
                </div>
                
                <div class="article-recent-secondary">
