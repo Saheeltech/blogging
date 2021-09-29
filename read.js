@@ -1,3 +1,3 @@
-(".expand-post").click(function () {
+$(".expand-post").click(function () {
     $(this).hide().next().show();
 });
