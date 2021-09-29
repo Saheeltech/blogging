@@ -81,7 +81,7 @@ body {
  }
  
  header {
-    background: #f8f8f8;
+    background: #080808;
     text-align: center;
     padding: 2em 0;
     margin-bottom: 3em;
@@ -121,7 +121,7 @@ body {
  
  nav a {
     text-decoration: none;
-    color: #0a0a0a;
+    color: #707070;
     font-weight: 700;
     margin: .25em 0;
  }
@@ -136,7 +136,7 @@ body {
  }
  
  .current-page:hover {
-    color: #0c0c0c;
+    color: #707070;
  }
  
  .article-featured {
